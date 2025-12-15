@@ -28,6 +28,10 @@
 | **IFNULL()** | 컬럼 값이 NULL일 경우, 지정된 대체 값으로 변경 | `IFNULL(freezer_yn, 'N')` |
 | **IS NULL / IS NOT NULL** | `NULL` 값의 유무를 확인하여 필터링| `WHERE address IS NULL` (주소 값이 NULL인 행 필터링) |
 | **AS** | 컬럼이나 테이블에 별칭부여 | `ROUND(AVG(score)) AS avg_score` |
+| **DATEDIFF()** | 두 날짜 간의 차이를 일(day) 단위로 계산 | `DATEDIFF(end_date, start_date)` |
+
+
+
 
 ## 3. 테이블 결합 및 데이터 수정 문법
 
